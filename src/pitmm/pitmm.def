@@ -1,0 +1,19 @@
+LIBRARY PITMM
+EXPORTS
+    mciSendCommandA=pit_mciSendCommandA@16
+    auxGetNumDevs=pit_auxGetNumDevs@0
+    auxGetDevCapsA=pit_auxGetDevCapsA@12
+    auxGetVolume=pit_auxGetVolume@8
+    auxSetVolume=pit_auxSetVolume@8
+    timeKillEvent=winmm.timeKillEvent
+    timeGetTime=winmm.timeGetTime
+    waveOutGetNumDevs=winmm.waveOutGetNumDevs
+    sndPlaySoundA=winmm.sndPlaySoundA
+    timeEndPeriod=winmm.timeEndPeriod
+    timeBeginPeriod=winmm.timeBeginPeriod
+    timeSetEvent=winmm.timeSetEvent
+    joyReleaseCapture=winmm.joyReleaseCapture
+    joySetCapture=winmm.joySetCapture
+    joyGetNumDevs=winmm.joyGetNumDevs
+    joyGetDevCapsA=winmm.joyGetDevCapsA
+    joyGetPos=winmm.joyGetPos

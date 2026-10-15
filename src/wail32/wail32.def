@@ -1,0 +1,15 @@
+LIBRARY WAIL32
+EXPORTS
+    AIL_startup=AIL_startup@0
+    AIL_shutdown=AIL_shutdown@0
+    AIL_last_error=AIL_last_error@0
+    AIL_serve=AIL_serve@0
+    AIL_waveOutOpen=AIL_waveOutOpen@16
+    AIL_allocate_sample_handle=AIL_allocate_sample_handle@4
+    AIL_init_sample=AIL_init_sample@4
+    AIL_end_sample=AIL_end_sample@4
+    AIL_sample_status=AIL_sample_status@4
+    AIL_set_sample_volume=AIL_set_sample_volume@8
+    AIL_set_sample_file=AIL_set_sample_file@12
+    AIL_start_sample=AIL_start_sample@4
+    FILE_read=FILE_read@8
